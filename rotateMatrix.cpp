@@ -51,12 +51,14 @@ void displayMatrix(int mat[4][4])
 /* Driver program to test above functions */
 int main()
 {
-  // Test Case 1
-  int mat[4][4] = {
-      {1, 2, 3, 4},
-      {5, 6, 7, 8},
-      {9, 10, 11, 12},
-      {13, 14, 15, 16}};
+  int n = 4;
+  for (int i = 0; i < n; i++)
+  {
+    for (int j = 0; j < n; j++)
+    {
+      cin >> arr[i][j];
+    }
+  }
   rotateMatrix(mat);
   // Print rotated matrix
   displayMatrix(mat);
